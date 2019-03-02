@@ -15,7 +15,7 @@ public class LargestNo {
 			 rem = temp%10;
 			 if(rem==d) {
 				 n--;
-				 temp=10;
+				 temp=n;
 				 continue;
 			 }
 			 temp=temp/10;
